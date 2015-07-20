@@ -9,7 +9,6 @@
 class My_Custom_Post_Type
 {
     public $post_type = 'my_cpt';
-    //Define the metabox attributes.
     public function __construct() {
         $object = new My_Base_Custom_Post_Type();
         $object->post_type =  $this->post_type;
