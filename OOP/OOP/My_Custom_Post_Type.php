@@ -86,7 +86,7 @@ class My_Custom_Post_Type
             if(!current_user_can('edit_page', $id)) {
                 return $id;
             }
-        } // end if
+        }
         /* - end security verification - */
         // Make sure the file array isn't empty
         if(!empty($_FILES['wp_custom_attachment']['name'])) {
